@@ -35,16 +35,33 @@ struct TopMoviePreview: View {
                             Text(category).font(.footnote)
                             
                             if isNotLastCategory(category){
-                            Image(systemName:"circle.fill")
-                                .foregroundColor(.blue)
-                                .font(.system(size: 3))}
+                                Image(systemName:"circle.fill")
+                                    .foregroundColor(.blue)
+                                    .font(.system(size: 3))}
                         }
                     }
                 }
                 HStack{
-                    Text("My List")
-                    Text("Play Button")
-                    Text("Info Button")
+                    Spacer()
+                    
+                    SmallVerticalButton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true){
+                        //
+                    }
+                    
+                    Spacer()
+                    
+                    WhiteButton(text: "Play", imageName: "play.fill"){
+                    //
+                    }
+                    .frame(width:120)
+                    
+                    Spacer()
+                    
+                    SmallVerticalButton(text: "Info", isOnImage: "info.circle", isOffImage: "info.circle", isOn: true){
+                        //
+                    }
+                    
+                    Spacer()
                 }
             }
         }

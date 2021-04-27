@@ -17,7 +17,7 @@ struct SmallVerticalButton: View {
     
     var imageName: String {
         if isOn{
-        return isOnImage}
+            return isOnImage}
         else {
             return isOffImage
         }
@@ -36,7 +36,7 @@ struct SmallVerticalButton: View {
                 Image(systemName:imageName).foregroundColor(.white)
                 
                 Text(text).foregroundColor(.white).font(.system(size:14)).bold()
-                    
+                
             }
         })
     }

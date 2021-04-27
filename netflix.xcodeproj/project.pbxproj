@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6468A4FD2637999700E24D92 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468A4FC2637999700E24D92 /* WhiteButton.swift */; };
 		64A4670C2632330600A746EF /* netflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A4670B2632330600A746EF /* netflixApp.swift */; };
 		64A4670E2632330600A746EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A4670D2632330600A746EF /* ContentView.swift */; };
 		64A467102632330800A746EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A4670F2632330800A746EF /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6468A4FC2637999700E24D92 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		64A467082632330600A746EF /* netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A4670B2632330600A746EF /* netflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflixApp.swift; sourceTree = "<group>"; };
 		64A4670D2632330600A746EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				64A467392632374F00A746EF /* HomeView.swift */,
 				64A467732633CEE200A746EF /* TopMoviePreview.swift */,
 				64A4677B2634FCD500A746EF /* SmallVerticalButton.swift */,
+				6468A4FC2637999700E24D92 /* WhiteButton.swift */,
 				64A4676626324B3C00A746EF /* HomeVM.swift */,
 				64A467112632330800A746EF /* Preview Content */,
 			);
@@ -297,6 +300,7 @@
 				64A4674F2632399C00A746EF /* Movie.swift in Sources */,
 				64A4670C2632330600A746EF /* netflixApp.swift in Sources */,
 				64A4677C2634FCD500A746EF /* SmallVerticalButton.swift in Sources */,
+				6468A4FD2637999700E24D92 /* WhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
