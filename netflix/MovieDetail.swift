@@ -65,6 +65,16 @@ struct MovieDetail: View {
                         }
                         .padding(.leading, 20)
                         
+                        VStack {
+                            // Custom tab picker
+                            ScrollView(.horizontal,showsIndicators:false) {
+                                Text("TEST")
+                            }
+                            
+                            // Selected View
+                            Text("SELECTED VIEW")
+                        }
+                        
                         
                     }
                     .padding(.horizontal,10)
@@ -81,6 +91,12 @@ struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
         MovieDetail(movie:exampleMovie3)
     }
+}
+
+enum CustomTab: String {
+    case episodes = "EPISODES"
+    case trailers = "TRAILERS & MORE"
+    case more = "MORE LIKE THIS"
 }
 
 struct MovieInfoSubheadline: View {
